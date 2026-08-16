@@ -1,5 +1,11 @@
 {
-  "name": "Run History Stats (@fv dev)",
+  "id": "data-mart-dashboards",
+  "name": "Dashboards (@fv dev)",
   "description": "Create Dashboard based on OWOX Data Mart data",
+  "version": "0.1.0",
+  "ui": { "entry": "ui/index.html" },
+  "menu": [{ "title": "Dashboards", "path": "" }],
+  "credentials": [{ "type": "data-mart", "scope": "all", "actions": ["view"] }],
+  "collections": [{ "name": "dashboards", "scope": "project" }],
   "delivery": { "type": "remote", "url": "https://data-mart-dashboardization.dorland.keenetic.pro/" }
 }
