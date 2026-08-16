@@ -1,0 +1,5 @@
+{
+  "name": "Run History Stats (@fv dev)",
+  "description": "Create Dashboard based on OWOX Data Mart data",
+  "delivery": { "type": "remote", "url": "https://data-mart-dashboardization.dorland.keenetic.pro/" }
+}
