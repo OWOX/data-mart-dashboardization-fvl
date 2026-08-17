@@ -6,6 +6,20 @@
   "ui": { "entry": "ui/index.html" },
   "menu": [{ "title": "Dashboards", "path": "" }],
   "credentials": [{ "type": "data-mart", "scope": "all", "actions": ["view"] }],
-  "collections": [{ "name": "dashboards", "scope": "project" }],
+  "collections": [
+    {
+      "name": "dashboards",
+      "scope": "project",
+      "entityBinding": {
+        "type": "data-mart",
+        "actions": {
+          "read": "SEE",
+          "create": "SEE",
+          "update": "SEE",
+          "delete": "SEE"
+        }
+      }
+    }
+  ],
   "delivery": { "type": "remote", "url": "https://data-mart-dashboardization.dorland.keenetic.pro/" }
 }
